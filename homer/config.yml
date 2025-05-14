@@ -66,8 +66,8 @@ services:
         logo: "assets/icons/sample.png"
         subtitle: "Home automation server"
         tag: "LXC"
-        URL: "https://10.1.0.5:8123/"
-        #target: "_blank" # optional html a tag target attribute
+        URL: "https://10.1.0.5:8123"
+        target: "_blank" # optional html a tag target attribute
      
   - name: "Core"
     icon: "fas fa-cloud"
@@ -77,7 +77,7 @@ services:
         subtitle: "Hypervisor for VMs and Containers"
         tag: "Host"
         url: "https://10.1.0.2:8006"
-        #target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html a tag target attribute
      
   - name: "Tools"
     icon: "fas fa-cloud"
